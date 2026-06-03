@@ -8,7 +8,7 @@
 <style>
 body {
     margin: 0;
-    font-family: Arial;
+    font-family: Arial, sans-serif;
     background: #0f172a;
     color: #e2e8f0;
 }
@@ -20,13 +20,14 @@ header {
     background: #111827;
 }
 
+/* PROFILE IMAGE */
 .profile-pic {
-    width: 120px;
-    height: 120px;
+    width: 140px;
+    height: 140px;
     border-radius: 50%;
-    background: gray;
-    margin: auto;
-    overflow: hidden;
+    object-fit: cover;
+    border: 3px solid #38bdf8;
+    margin-bottom: 15px;
 }
 
 /* BUTTONS */
@@ -37,7 +38,7 @@ header {
     background: #38bdf8;
     color: black;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 6px;
     font-weight: bold;
 }
 
@@ -45,6 +46,11 @@ section {
     max-width: 900px;
     margin: auto;
     padding: 30px 20px;
+}
+
+h2 {
+    border-left: 4px solid #38bdf8;
+    padding-left: 10px;
 }
 
 .card {
@@ -76,18 +82,25 @@ section {
 
 <header>
 
-    <!-- PROFILE PICTURE -->
-    <div class="profile-pic"></div>
+    <!-- PROFILE IMAGE (your uploaded picture) -->
+    <img class="profile-pic" src="file_00000000555c72439ba72b2fd6d2bdc2" alt="Profile">
 
     <h1>Mcebisi Mthimkhulu</h1>
     <p>ICT Business Analysis Graduate | Aspiring Cyber Security Professional</p>
 
-    <!-- BUTTON AREA (we will activate later) -->
+    <!-- BUTTONS -->
     <div>
-        <a class="btn" href="#">Download CV</a>
-        <a class="btn" href="#">LinkedIn</a>
-        <a class="btn" href="#">GitHub</a>
-        <a class="btn" href="#">WhatsApp</a>
+        <a class="btn" href="https://wa.me/27609485481?text=Hi%20Mcebisi%2C%20I%20found%20your%20portfolio" target="_blank">
+            WhatsApp Me
+        </a>
+
+        <a class="btn" href="https://www.linkedin.com/in/mcebisi-hlanganani-mthimkhulu-244296301" target="_blank">
+            LinkedIn
+        </a>
+
+        <a class="btn" href="https://github.com/" target="_blank">
+            GitHub
+        </a>
     </div>
 
 </header>
@@ -95,7 +108,9 @@ section {
 <section>
 <h2>About Me</h2>
 <p>
-ICT graduate passionate about technology, cybersecurity, and digital systems.
+I am Mcebisi, an ICT Business Analysis graduate with a Higher Certificate in Information Technology.
+I am passionate about technology, cybersecurity, and digital systems. My goal is to grow in IT and
+eventually build my own tech company.
 </p>
 </section>
 
@@ -103,38 +118,47 @@ ICT graduate passionate about technology, cybersecurity, and digital systems.
 <h2>Education</h2>
 
 <div class="card">Higher Certificate in Information Technology</div>
-<div class="card">Diploma in ICT Business Analysis</div>
+<div class="card">Diploma in ICT Business Analysis (Completed)</div>
 </section>
 
 <section>
 <h2>Experience</h2>
 
 <div class="card">
-ICT Internship - Moses Kotane Research Institute<br>
-Community ICT support and digital services.
+<b>ICT Internship</b><br>
+Moses Kotane Research Institute (Vumanhlamvu Digital Centre)<br>
+Community ICT support, digital assistance, and online applications.
 </div>
 
 <div class="card">
-Mthimkhulu Digital Services<br>
-Online applications, typing, email setup, NSFAS, CAO.
+<b>Mthimkhulu Digital Services</b><br>
+Typing, CAO applications, NSFAS applications, university & TVET applications,
+email creation, SARS eFiling support, and digital assistance services.
 </div>
 </section>
 
 <section>
 <h2>Skills</h2>
 
-<span class="tag">IT Support</span>
+<span class="tag">Computer Literacy</span>
 <span class="tag">Microsoft Office</span>
-<span class="tag">Problem Solving</span>
+<span class="tag">ICT Support</span>
 <span class="tag">Customer Service</span>
+<span class="tag">Problem Solving</span>
+<span class="tag">Data Entry</span>
 <span class="tag">Digital Systems</span>
 </section>
 
 <section>
 <h2>Projects</h2>
 
-<div class="card">Portfolio Website (GitHub Pages)</div>
-<div class="card">Digital Application Services System</div>
+<div class="card">
+Portfolio Website (GitHub Pages)
+</div>
+
+<div class="card">
+Community ICT Support Work
+</div>
 </section>
 
 <div class="contact">
